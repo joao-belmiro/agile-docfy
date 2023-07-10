@@ -40,8 +40,11 @@ export default defineComponent({
         width: 100%;
         height: 200px;
     }
-    @media (max-width: 1400px) {
+    @media (min-width: 1400px) {
         width: 46.5%;
+    }
+    @media (min-width: 1000px) and (max-width: 1399px) {
+        width: 45.5%;
     }
     h3 {
         position: absolute;
@@ -54,7 +57,7 @@ export default defineComponent({
     p {
         margin-top: 67px;
         font-size: 16px;
-        line-height: 2;
+        line-height: 1.5;
         text-align: justify;
         @media (max-width: 1400px) {
           font-size: 13.5px;
