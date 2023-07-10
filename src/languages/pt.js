@@ -44,16 +44,41 @@ const pt = {
   mediumCardTitle: 'Veja Quem está falando sobre Scrum',
   mediumCardTitlekanban: 'Veja Quem está falando sobre Kanban',
   kanbanActors: {
-    0: 'scrum master',
-    1: 'product owner',
-    2: 'equipe de desenvolvimento devs e afs'
+    0: {
+      title: 'Scrum Master',
+      content: 'Embora o Kanban não exija explicitamente um Scrum Master, pode haver uma pessoa desempenhando funções semelhantes, como facilitar o processo Kanban, remover obstáculos e garantir a adesão aos princípios e práticas do Kanban.'
+    },
+    1: {
+      title: 'Product Owner',
+      content: 'É responsável por definir a visão do produto e as prioridades do backlog. Eles garantem que o trabalho mais valioso esteja sendo realizado e têm a autoridade para tomar decisões sobre o produto.'
+    },
+    2: {
+      title: 'Desenvolvedores',
+      content: 'Os desenvolvedores são responsáveis por implementar soluções de software usando tecnologias e linguagens de programação específicas. Eles criam e mantêm a lógica do sistema, interações com banco de dados e integrações com APIs externas. Podem se especializar em áreas como desenvolvimento front-end, back-end, mobile ou aplicações web.'
+    },
+    3: {
+      title: 'Analistas Funcionais',
+      content: 'Os analistas funcionais são responsáveis por entender e documentar requisitos do projeto, geralmente em colaboração com as partes interessadas. Trabalham para garantir que as necessidades do cliente sejam atendidas, analisando, documentando e comunicando os requisitos do software. Suas responsabilidades podem incluir coleta de requisitos, análise de negócios, mapeamento de processos e elaboração de documentação.'
+    }
   },
   titleKanbanRites: 'Ritos do kanban',
   kanbanRites: {
-    0: 'daily',
-    1: 'planning',
-    2: 'review',
-    3: 'retrospctiva'
+    0: {
+      title: 'Reuniões de Revisão do Fluxo de Trabalho',
+      content: ' São encontros regulares em que a equipe revisa o fluxo de trabalho, analisa o progresso das tarefas e identifica possíveis melhorias. Essas reuniões permitem que a equipe reflita sobre o desempenho, discuta os gargalos e tome decisões para otimizar o fluxo.'
+    },
+    1: {
+      title: 'Retrospectivas',
+      content: 'Assim como no Scrum, as retrospectivas são reuniões periódicas em que a equipe reflete sobre o trabalho realizado e identifica oportunidades de melhoria. Essas reuniões permitem que a equipe analise o processo, identifique problemas recorrentes e proponha ações para aprimorar continuamente o trabalho.'
+    },
+    2: {
+      title: 'Daily Stand-up',
+      content: 'É uma reunião diária curta e cronometrada, geralmente realizada no mesmo horário e local. Todos os membros da equipe de desenvolvimento participam e compartilham o progresso do trabalho desde a última reunião, os planos para o dia e quaisquer obstáculos ou impedimentos que estejam enfrentando. O objetivo do Daily Scrum é promover a comunicação entre os membros da equipe e garantir a sincronização e a colaboração contínuas.'
+    },
+    3: {
+      title: 'Métricas e Indicadores',
+      content: 'São medidas quantitativas usadas para avaliar o desempenho e o fluxo de trabalho do time Kanban. Isso pode incluir métricas como lead time (tempo de entrega), cycle time (tempo de ciclo), throughput (quantidade de trabalho concluído) e índices de qualidade.'
+    }
   }
 }
 

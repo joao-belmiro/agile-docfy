@@ -10,3 +10,14 @@ export default {
   }
 }
 </script>
+<style lang="scss">
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background: $blue;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: $background;
+}
+</style>

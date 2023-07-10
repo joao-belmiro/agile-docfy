@@ -44,16 +44,41 @@ const en = {
   mediumCardTitle: "See Who's Talking About Scrum",
   mediumCardTitlekanban: "See Who's Talking About kanban",
   kanbanActors: {
-    0: 'scrum master',
-    1: 'product owner',
-    2: 'equipe de desenvolvimento devs e afs'
+    0: {
+      title: 'Scrum Master',
+      content: 'Although Kanban does not explicitly require a Scrum Master, there may be someone performing similar functions, such as facilitating the Kanban process, removing obstacles, and ensuring adherence to Kanban principles and practices.'
+    },
+    1: {
+      title: 'Product Owner',
+      content: 'They are responsible for defining the product vision and backlog priorities. They ensure that the most valuable work is being done and have the authority to make decisions about the product.'
+    },
+    2: {
+      title: 'Developers',
+      content: 'Developers are responsible for implementing software solutions using specific technologies and programming languages. They create and maintain the systems logic, database interactions, and integrations with external APIs. They may specialize in areas such as front-end development, back-end development, mobile, or web applications.'
+    },
+    3: {
+      title: 'Functional Analysts',
+      content: 'Functional Analysts are responsible for understanding and documenting project requirements, often in collaboration with stakeholders. They work to ensure that customer needs are met by analyzing, documenting, and communicating software requirements. Their responsibilities may include requirement gathering, business analysis, process mapping, and documentation.'
+    }
   },
-  titleKanbanRites: 'Kanban Ceremonies',
+  titleKanbanRites: 'Kanban Rites',
   kanbanRites: {
-    0: 'daily',
-    1: 'planning',
-    2: 'review',
-    3: 'retrospctiva'
+    0: {
+      title: 'Workflow Review Meetings',
+      content: 'These are regular meetings where the team reviews the workflow, analyzes task progress, and identifies possible improvements. These meetings allow the team to reflect on performance, discuss bottlenecks, and make decisions to optimize the flow.'
+    },
+    1: {
+      title: 'Retrospectives',
+      content: 'Similar to Scrum, retrospectives are periodic meetings where the team reflects on the work done and identifies opportunities for improvement. These meetings enable the team to analyze the process, identify recurring issues, and propose actions for continuous improvement.'
+    },
+    2: {
+      title: 'Daily Stand-up',
+      content: 'It is a short and time-boxed daily meeting, usually held at the same time and location. All members of the development team participate and share progress since the last meeting, plans for the day, and any obstacles or impediments they are facing. The goal of the Daily Stand-up is to promote communication among team members and ensure continuous synchronization and collaboration.'
+    },
+    3: {
+      title: 'Metrics and Indicators',
+      content: 'These are quantitative measures used to assess the performance and workflow of the Kanban team. This may include metrics such as lead time, cycle time, throughput, and quality indices.'
+    }
   }
 }
 

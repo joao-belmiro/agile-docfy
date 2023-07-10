@@ -9,13 +9,13 @@
       {{ $t('titleScrumActors') }}
     </div>
     <div class="d-flex_row__start mx-80 mt-16">
-      <CardMain v-for="card in cards" :key="card" :color="{ backgroundColor: '#3b7ec7' }" :title="$t(`scrumActors.${card}.title`, card)" :content="$t(`scrumActors.${card}.content`, card)"/>
+      <CardMain v-for="card in cards" :key="card" :color="{ backgroundColor: '#3b7ec7' }" :title="$t(`kanbanActors.${card}.title`, card)" :content="$t(`kanbanActors.${card}.content`, card)"/>
     </div>
     <div class="title-rites px-80">
-      {{ $t('titleScrumRites') }}
+      {{ $t('titleKanbanRites') }}
     </div>
     <div class="d-flex_row__start mx-80 mt-16">
-      <CardMain v-for="card in cards" :key="card" :color="{ backgroundColor: '#FFA63D'}" :title="$t(`scrumRites.${card}.title`, card)" :content="$t(`scrumRites.${card}.content`, card)"/>
+      <CardMain v-for="card in cards" :key="card" :color="{ backgroundColor: '#FFA63D'}" :title="$t(`kanbanRites.${card}.title`, card)" :content="$t(`kanbanRites.${card}.content`, card)"/>
     </div>
     <div class="title-medium px-80 mb-16">
       {{ $t('mediumCardTitlekanban') }}
