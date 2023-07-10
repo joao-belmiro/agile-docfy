@@ -221,7 +221,6 @@ export default defineComponent({
           background: $blue;
           border: 0.75px solid $grey;
           font-size: 13px;
-          padding-left: 10px;
           color: $background;
           height: 40px;
           border-radius: 5px;
