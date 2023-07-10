@@ -1,6 +1,6 @@
 <template>
   <div class="medium-card mx-80">
-    <div class="d-flex_row__normal p-16">
+    <div class="d-flex_row__normal">
       <card-medium
         v-for="card in talkingMedium"
         :key="card.author"
@@ -55,11 +55,8 @@ export default defineComponent({
 
 <style scoped lang="scss">
 .medium-card {
-  border: 1px solid #e5e5e5;
   border-radius: 8px;
   margin-bottom: 16px;
 }
-h1 {
-  border-bottom: 1px solid #e5e5e5;
-}
+
 </style>

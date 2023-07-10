@@ -79,7 +79,8 @@ const en = {
       title: 'Metrics and Indicators',
       content: 'These are quantitative measures used to assess the performance and workflow of the Kanban team. This may include metrics such as lead time, cycle time, throughput, and quality indices.'
     }
-  }
+  },
+  titleViewProfile: 'View profile'
 }
 
 export default en

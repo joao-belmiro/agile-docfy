@@ -79,7 +79,8 @@ const pt = {
       title: 'Métricas e Indicadores',
       content: 'São medidas quantitativas usadas para avaliar o desempenho e o fluxo de trabalho do time Kanban. Isso pode incluir métricas como lead time (tempo de entrega), cycle time (tempo de ciclo), throughput (quantidade de trabalho concluído) e índices de qualidade.'
     }
-  }
+  },
+  titleViewProfile: 'Ver perfil'
 }
 
 export default pt

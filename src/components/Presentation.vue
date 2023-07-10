@@ -34,8 +34,10 @@ export default defineComponent({
 <style scoped lang="scss">
 .dots {
   background-image: url('../assets/dots.svg');
-    background-repeat: no-repeat;
-    background-position: left;
+  background-repeat: repeat-y;
+  background-position: left;
+  object-fit: contain;
+
 }
 p {
     line-height: 2;

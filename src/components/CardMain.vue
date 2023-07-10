@@ -31,7 +31,7 @@ export default defineComponent({
     position: relative;
     width: 46.8%;
     height: 270px;
-    border: 1px solid #E5E5E5;
+    border: 1px solid #ddd;
     border-radius: 8px;
     background-image: url('../assets/dots.svg');
     background-repeat: no-repeat;
@@ -40,20 +40,25 @@ export default defineComponent({
         width: 100%;
         height: 200px;
     }
+    @media (max-width: 1400px) {
+        width: 46.5%;
+    }
     h3 {
         position: absolute;
         left: 0;
-        padding: 8px 8px 8px 16px;
-        width: 50%;
+        padding: 12px 16px 12px 16px;
         color: $background;
         border-top-right-radius: 40px;
         border-bottom-right-radius: 40px;
     }
     p {
-       margin-top: 57px;
+        margin-top: 67px;
         font-size: 16px;
         line-height: 2;
         text-align: justify;
+        @media (max-width: 1400px) {
+          font-size: 13.5px;
+        }
     }
 }
 </style>
