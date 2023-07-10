@@ -43,33 +43,3 @@ export default defineComponent({
   }
 })
 </script>
-
-<style lang="scss">
-.title-rites {
-  box-sizing: border-box;
-  background-color: $contrast;
-  color: $background;
-  font-size: 20px;
-  width: 100%;
-  height: 80px;
-  line-height: 80px;
-}
-.title-medium {
-  box-sizing: border-box;
-  background-color: $purple;
-  color: $background;
-  font-size: 20px;
-  width: 100%;
-  height: 80px;
-  line-height: 80px;
-}
-.title-actors {
-  box-sizing: border-box;
-  background-color: $blue;
-  color: $background;
-  font-size: 20px;
-  width: 100%;
-  height: 80px;
-  line-height: 80px;
-}
-</style>

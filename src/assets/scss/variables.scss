@@ -1,13 +1,47 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Rubik:ital@1&display=swap');
-@import './global.scss';
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Rubik:ital@1&display=swap");
+@import "./global.scss";
 $global-font: "Poppins", sans-serif;
-$logo-font: 'Rubik', sans-serif;
+$logo-font: "Rubik", sans-serif;
 $primary: #3b7ec7;
-$secondary: #64D487;
-$contrast:#FFA63D;
-$purple:  #7f00ff;
-$contrast-2:#FDD750;
-$background: #F8F7F4;
-$dark: #2A3A4E;
-$blue:#008CFF;
-$grey: #E5E5E5;
+$secondary: #64d487;
+$contrast: #ffa63d;
+$purple: #7f00ff;
+$contrast-2: #fdd750;
+$background: #f8f7f4;
+$dark: #2a3a4e;
+$blue: #008cff;
+$grey: #e5e5e5;
+
+.title-rites {
+  box-sizing: border-box;
+  background-color: $contrast;
+  color: $background;
+  font-size: 20px;
+  width: 100%;
+  height: 80px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  line-height: 80px;
+}
+.title-medium {
+  box-sizing: border-box;
+  background-color: $purple;
+  color: $background;
+  font-size: 20px;
+  width: 100%;
+  height: 80px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  line-height: 80px;
+}
+.title-actors {
+  box-sizing: border-box;
+  background-color: $blue;
+  color: $background;
+  font-size: 20px;
+  width: 100%;
+  height: 80px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  line-height: 80px;
+}
