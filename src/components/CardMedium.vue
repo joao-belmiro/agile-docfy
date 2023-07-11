@@ -53,7 +53,7 @@ img {
   box-sizing: border-box;
   display: flex;
   flex-direction: row;
-  border-radius: 8px;
+  border-radius: 22px;
   border: 1px solid #ddd;
   width: 32.6%;
   height: 200px;

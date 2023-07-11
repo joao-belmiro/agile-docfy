@@ -22,6 +22,9 @@ $grey: #e5e5e5;
   font-weight: 600;
   letter-spacing: 2px;
   line-height: 80px;
+  @media (max-width: 999px) {
+    font-size: 18px;
+  }
 }
 .title-medium {
   box-sizing: border-box;
@@ -33,6 +36,9 @@ $grey: #e5e5e5;
   font-weight: 600;
   letter-spacing: 2px;
   line-height: 80px;
+  @media (max-width: 999px) {
+    font-size: 18px;
+  }
 }
 .title-actors {
   box-sizing: border-box;
@@ -44,4 +50,7 @@ $grey: #e5e5e5;
   font-weight: 600;
   letter-spacing: 2px;
   line-height: 80px;
+  @media (max-width: 999px) {
+    font-size: 18px;
+  }
 }

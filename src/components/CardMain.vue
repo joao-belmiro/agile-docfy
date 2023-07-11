@@ -32,7 +32,7 @@ export default defineComponent({
     width: 46.8%;
     height: 270px;
     border: 1px solid #ddd;
-    border-radius: 8px;
+    border-radius: 22px;
     background-image: url('../assets/dots.svg');
     background-repeat: no-repeat;
     background-position: right;
