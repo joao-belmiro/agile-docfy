@@ -59,7 +59,7 @@ img {
   height: 200px;
   @media (max-width: 999px) {
     width: 100%;
-    height: 140px;
+    height: auto;
   }
 }
 p {

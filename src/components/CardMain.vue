@@ -38,7 +38,7 @@ export default defineComponent({
     background-position: right;
     @media (max-width: 999px) {
         width: 100%;
-        height: 200px;
+        height: auto;
     }
     @media (min-width: 1400px) {
         width: 46.5%;
