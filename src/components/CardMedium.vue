@@ -51,6 +51,7 @@ img {
 }
 .card-main {
   box-sizing: border-box;
+  word-break: break-all;
   display: flex;
   flex-direction: row;
   border-radius: 22px;

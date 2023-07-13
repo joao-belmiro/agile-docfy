@@ -100,6 +100,7 @@ export default defineComponent({
         justify-content: flex-start;
         column-gap: 5%;
         padding-left: 5%;
+        height: 16vh;
       }
       .logo {
         font-size: 22px;
@@ -243,7 +244,7 @@ export default defineComponent({
       .active {
         transform: translateY(0);
         &.nav-list {
-          top: 8vh;
+          top: 16vh;
           li {
             opacity: 1;
           }

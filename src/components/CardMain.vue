@@ -53,6 +53,9 @@ export default defineComponent({
         color: $background;
         border-top-right-radius: 40px;
         border-bottom-right-radius: 40px;
+        @media (max-width: 999px) {
+          font-size: 13px;
+        }
     }
     p {
         margin-top: 67px;
