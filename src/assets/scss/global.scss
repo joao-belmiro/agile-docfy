@@ -25,7 +25,7 @@
     align-items: flex-start;
     justify-content: space-between;
     flex-wrap: wrap;
-    column-gap: 1%;
+    gap: 1%;
     @media (max-width: 999px) {
        justify-content: center;
     }
