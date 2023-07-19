@@ -23,7 +23,8 @@ $grey: #e5e5e5;
   letter-spacing: 2px;
   line-height: 80px;
   @media (max-width: 999px) {
-    font-size: 18px;
+    font-size: 16px;
+    word-break: break-all;
   }
 }
 .title-medium {
@@ -37,7 +38,8 @@ $grey: #e5e5e5;
   letter-spacing: 2px;
   line-height: 80px;
   @media (max-width: 999px) {
-    font-size: 18px;
+    font-size: 16px;
+    word-break: break-all;
   }
 }
 .title-actors {
@@ -51,6 +53,9 @@ $grey: #e5e5e5;
   letter-spacing: 2px;
   line-height: 80px;
   @media (max-width: 999px) {
-    font-size: 18px;
+    font-size: 16px;
+    word-break: break-all;
+    line-height: 40px;
+    letter-spacing: 1px;
   }
 }

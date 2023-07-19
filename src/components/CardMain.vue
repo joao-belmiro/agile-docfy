@@ -30,8 +30,8 @@ export default defineComponent({
 .card-wrapper {
     position: relative;
     width: 46.8%;
-    height: 270px;
-    border: 1px solid #ddd;
+    height: 223px;
+    border: 1px solid #999;
     border-radius: 22px;
     background-image: url('../assets/dots.svg');
     background-repeat: no-repeat;
@@ -48,13 +48,14 @@ export default defineComponent({
     }
     h3 {
         position: absolute;
-        left: 0;
+        left: -10px;
         padding: 12px 16px 12px 16px;
         color: $background;
-        border-top-right-radius: 40px;
-        border-bottom-right-radius: 40px;
+        border-radius: 6px;
+        letter-spacing: 3px;
         @media (max-width: 999px) {
           font-size: 13px;
+          max-width: 290px;
         }
     }
     p {
@@ -64,6 +65,9 @@ export default defineComponent({
         text-align: justify;
         @media (max-width: 1400px) {
           font-size: 13.5px;
+        }
+        @media (max-width: 999px) {
+          margin-top: 76px;
         }
     }
 }
