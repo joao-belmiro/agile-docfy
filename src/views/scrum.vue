@@ -20,7 +20,7 @@
     <div class="title-medium px-80 mb-16">
       {{ $t('mediumCardTitle') }}
     </div>
-    <MediumSection typeSearch="scrum"/>
+    <MediumSection typeSearch="Scrum"/>
   </div>
 </template>
 

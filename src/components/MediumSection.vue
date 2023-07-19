@@ -1,8 +1,13 @@
 <template>
   <div class="medium-card mx-80">
+    <div class="d-flex_row__start mb-16">
+      <div class="badge" v-for="topic in talkingMedium.topics" :key="topic" @click="getUsers(topic)">
+        {{ topic }}
+      </div>
+    </div>
     <div class="d-flex_row__normal">
       <card-medium
-        v-for="card in talkingMedium"
+        v-for="card in talkingMedium.results"
         :key="card.author"
         :author="card.author"
         :description="card.description"
@@ -34,8 +39,8 @@ export default defineComponent({
   setup (props) {
     const talkingMedium = ref([])
 
-    onMounted(async () => {
-      const users = await searchUsers(`search/${props.typeSearch}`)
+    const getUsers = async (typeSearch) => {
+      const users = await searchUsers(`search/${typeSearch}`)
         .then((res) => {
           return res.data
         })
@@ -43,10 +48,14 @@ export default defineComponent({
           console.error(error.response)
           return []
         })
-
       talkingMedium.value = users
+    }
+
+    onMounted(() => {
+      getUsers(props.typeSearch)
     })
     return {
+      getUsers,
       talkingMedium
     }
   }
@@ -58,5 +67,13 @@ export default defineComponent({
   border-radius: 8px;
   margin-bottom: 16px;
 }
-
+.badge {
+  border-radius: 32px;
+  color: #000;
+  letter-spacing: 1px;
+  padding: 16px;
+  background-color: #dddcdc;
+  border: .75px solid #ddd;
+  cursor: pointer;
+}
 </style>
