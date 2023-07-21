@@ -1,5 +1,8 @@
 <template>
   <div class="medium-card mx-80">
+    <h2 class="mb-16">{{subTitle}}</h2>
+    <hr>
+    <br>
     <div class="d-flex_row__start mb-16">
       <div class="badge" v-for="topic in talkingMedium.topics" :key="topic" @click="getUsers(topic)">
         {{ topic }}
@@ -31,7 +34,7 @@ export default defineComponent({
       type: String,
       required: true
     },
-    title: {
+    subTitle: {
       type: String,
       required: true
     }
@@ -75,5 +78,9 @@ export default defineComponent({
   background-color: #dddcdc;
   border: .75px solid #ddd;
   cursor: pointer;
+  @media (max-width: 999px) {
+    padding: 9px;
+  }
+
 }
 </style>
