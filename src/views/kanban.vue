@@ -20,7 +20,7 @@
     <div class="title-medium px-80 mb-16">
       {{ $t('mediumCardTitlekanban') }}
     </div>
-    <MediumSection typeSearch="kanban"/>
+    <MediumSection typeSearch="kanban" :subTitle="$t('titleTopics', {complement: 'kanban'})"/>
   </div>
 </template>
 
