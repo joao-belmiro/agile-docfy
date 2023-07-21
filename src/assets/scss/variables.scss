@@ -40,6 +40,10 @@ $grey: #e5e5e5;
   @media (max-width: 999px) {
     font-size: 16px;
     word-break: break-all;
+    line-height: 40px;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
   }
 }
 .title-actors {
@@ -57,5 +61,7 @@ $grey: #e5e5e5;
     word-break: break-all;
     line-height: 40px;
     letter-spacing: 1px;
+    display: flex;
+    align-items: center;
   }
 }

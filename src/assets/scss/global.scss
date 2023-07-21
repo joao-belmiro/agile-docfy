@@ -25,9 +25,16 @@
     align-items: flex-start;
     justify-content: space-between;
     flex-wrap: wrap;
-    gap: 1%;
+
+    @media (max-width: 768px) {
+        column-gap: 16px;
+    }
     @media (max-width: 999px) {
-       justify-content: center;
+       align-items: flex-start;
+       justify-content: normal;
+       row-gap: 16px;
+       column-gap: 32px;
+
     }
 }
 
