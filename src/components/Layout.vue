@@ -7,9 +7,8 @@
             <div class="line2"></div>
             <div class="line3"></div>
           </div>
-          <a class="logo">
-            <span>Docs Agile</span></a
-          >
+          <div class="logo">
+            <span>Docs Agile</span></div>
           <ul class="nav-list">
             <li><router-link @click="clickMenu" to="/" exact>Scrum</router-link></li>
             <li><router-link @click="clickMenu" to="/kanban" exact>Kanban</router-link></li>
@@ -84,7 +83,6 @@ export default defineComponent({
     width: 100%;
     z-index: 3;
     @media (max-width: 999px) {
-      position: sticky;
       z-index: 1;
       top: 0;
     }
@@ -100,7 +98,7 @@ export default defineComponent({
         justify-content: flex-start;
         column-gap: 5%;
         padding-left: 5%;
-        height: 16vh;
+        height: 14vh;
       }
       .logo {
         font-size: 22px;
@@ -244,7 +242,7 @@ export default defineComponent({
       .active {
         transform: translateY(0);
         &.nav-list {
-          top: 16vh;
+          top: 14vh;
           li {
             opacity: 1;
           }
