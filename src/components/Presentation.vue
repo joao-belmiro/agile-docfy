@@ -4,7 +4,7 @@
         <h1 class="mb-16">{{ title }}</h1>
         <p>{{ presentationText }}</p>
     </div>
-    <img :src="urlImage" alt="imagem scrum ">
+    <img :src="urlImage" alt="imagem scrum" width="500" height="500">
   </div>
 </template>
 
